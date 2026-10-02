@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Local databases and backups
+*.sqlite3
+*.db
+*.dump
+*.backup
+
+# Temporary files
+*.tmp
+*.bak
